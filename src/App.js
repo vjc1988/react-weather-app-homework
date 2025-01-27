@@ -9,6 +9,7 @@ function App() {
         <a
           href="https://github.com/vjc1988/react-weather-app2/tree/master"
           target="_blank"
+          rel="noreferrer"
         >
           open-sourced
         </a>
