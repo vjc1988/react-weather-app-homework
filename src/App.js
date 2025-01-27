@@ -6,7 +6,12 @@ function App() {
       <h1>Weather App</h1>
       <footer>
         This project was coded by Victoria Cadd and is{" "}
-        <a href="">open-sourced</a>
+        <a
+          href="https://github.com/vjc1988/react-weather-app2/tree/master"
+          target="_blank"
+        >
+          open-sourced
+        </a>
       </footer>
     </div>
   );
