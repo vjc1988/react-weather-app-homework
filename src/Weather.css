@@ -12,7 +12,7 @@
 
 .Weather .search-button {
   background-color: #66bfbf;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 
 .Weather h1 {
@@ -37,7 +37,6 @@
 .Weather img {
   height: 64px;
   width: 64px;
-  display: inline-block;
   margin-right: 10px;
   float: left;
 }
