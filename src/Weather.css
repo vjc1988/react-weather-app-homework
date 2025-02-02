@@ -1,8 +1,18 @@
 .Weather {
   border: 1px solid black;
   padding: 16px;
-  margin: 50px;
+  margin: 30px auto;
+  max-width: 600px;
   border-radius: 6px;
+}
+
+.Weather form {
+  margin-bottom: 20px;
+}
+
+.Weather .search-button {
+  background-color: #66bfbf;
+  border-radius: 4px;
 }
 
 .Weather h1 {
@@ -22,4 +32,28 @@
   font-weight: 100;
   line-height: 19px;
   list-style: none;
+}
+
+.Weather img {
+  height: 64px;
+  width: 64px;
+  display: inline-block;
+  margin-right: 10px;
+  float: left;
+}
+
+.Weather .temperature {
+  font-size: 64px;
+  font-weight: bold;
+  color: #66bfbf;
+  line-height: 64px;
+}
+
+.Weather .unit {
+  font-size: 16px;
+  position: relative;
+  top: -35px;
+  line-height: 1;
+  margin-left: 5px;
+  color: #66bfbf;
 }
