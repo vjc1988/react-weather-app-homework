@@ -1,8 +1,17 @@
+body {
+  background-color: #eaf6f6;
+}
+
 .App {
   max-width: 600px;
   margin: 0 auto;
 }
 
+.App .background {
+  background-color: white;
+}
+
 .App footer {
   font-size: 15px;
+  text-align: center;
 }
