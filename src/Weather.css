@@ -9,9 +9,22 @@
   margin-bottom: 20px;
 }
 
+.Weather .search-bar {
+  background-color: #eaf6f6;
+  border: none;
+  border-radius: 6px;
+  height: 40px;
+  width: 80%;
+}
+
 .Weather .search-button {
   background-color: #66bfbf;
-  border-radius: 5px;
+  border-radius: 6px;
+  width: 50%;
+}
+
+.Weather .search-button:hover {
+  color: white;
 }
 
 .Weather .WeatherInfo {
