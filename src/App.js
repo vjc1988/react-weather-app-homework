@@ -15,7 +15,15 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            open-sourced
+            open-sourced on Github
+          </a>{" "}
+          and hosted by{" "}
+          <a
+            href="https://reactwapphomework.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
           </a>
         </footer>
       </div>

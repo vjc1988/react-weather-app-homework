@@ -1,7 +1,7 @@
 .Weather {
   padding: 16px;
   margin: 30px auto;
-  max-width: 600px;
+  max-width: 900px;
   border-radius: 6px;
 }
 
@@ -14,10 +14,15 @@
   border-radius: 5px;
 }
 
+.Weather .WeatherInfo {
+  margin-bottom: 20px;
+}
+
 .Weather h1 {
   color: #f76b8a;
-  font-size: 50px;
+  font-size: 62px;
   font-weight: 500;
+  margin-bottom: 20px;
 }
 
 .Weather ul {
@@ -41,7 +46,7 @@
 }
 
 .Weather .temperature {
-  font-size: 64px;
+  font-size: 62px;
   font-weight: bold;
   color: #66bfbf;
   line-height: 64px;
