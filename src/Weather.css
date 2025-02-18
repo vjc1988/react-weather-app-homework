@@ -20,7 +20,7 @@
 .Weather .search-button {
   background-color: #66bfbf;
   border-radius: 6px;
-  width: 50%;
+  margin-left: -10px;
 }
 
 .Weather .search-button:hover {
