@@ -9,7 +9,7 @@ function App() {
           <Weather defaultCity="Barcelona" />
         </div>
         <footer>
-          This project was coded by Victoria Cadd and is{" "}
+          This project was coded by Victoria Coombs and is{" "}
           <a
             href="https://github.com/vjc1988/react-weather-app2/tree/master"
             target="_blank"

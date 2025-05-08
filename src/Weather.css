@@ -18,9 +18,11 @@
 }
 
 .Weather .search-button {
+  width: 15%;
+  text-align: center;
   background-color: #66bfbf;
   border-radius: 6px;
-  margin-left: -10px;
+  margin-left: -2px;
 }
 
 .Weather .search-button:hover {
@@ -36,6 +38,10 @@
   font-size: 62px;
   font-weight: 500;
   margin-bottom: 20px;
+}
+
+.search-button .search-icon {
+  display: none;
 }
 
 .Weather ul {
@@ -72,4 +78,45 @@
   line-height: 1;
   margin-left: 5px;
   color: #66bfbf;
+}
+
+@media (max-width: 960px) {
+  .Weather h1 {
+    text-align: center;
+  }
+
+  .Weather li {
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .search-button .search-text {
+    display: none;
+  }
+
+  .search-button .search-icon {
+    line-height: 39px;
+    display: inline;
+    font-size: 20px;
+  }
+
+  .Weather .unit {
+    display: flex;
+  }
+
+  .Weather .humidity-wind {
+    display: flex;
+    text-align: center;
+    margin-left: -60px;
+  }
+
+  .Weather .temperature {
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .Weather .main-img {
+    justify-content: center;
+  }
 }

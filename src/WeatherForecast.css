@@ -26,3 +26,9 @@
 .Weather-Forecast-Image {
   margin-right: 0 !important;
 }
+
+@media (max-width: 960px) {
+  .weather-forecast-day-container {
+    margin-top: 30px;
+  }
+}
