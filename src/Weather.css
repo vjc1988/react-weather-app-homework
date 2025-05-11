@@ -100,8 +100,16 @@
     font-size: 20px;
   }
 
+  .WeatherTemperature {
+    display: inline;
+    margin: 0 auto;
+  }
+
   .Weather .unit {
-    display: flex;
+    display: inline-block;
+    position: relative;
+    top: -70px;
+    margin-left: 270px;
   }
 
   .Weather .humidity-wind {
@@ -113,10 +121,11 @@
   .Weather .temperature {
     display: flex;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
   }
 
   .Weather .main-img {
-    justify-content: center;
+    margin-top: 60px;
+    margin-left: 35px;
   }
 }
