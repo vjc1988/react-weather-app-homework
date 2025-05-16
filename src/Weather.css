@@ -80,7 +80,7 @@
   color: #66bfbf;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 760px) {
   .Weather h1 {
     text-align: center;
   }
@@ -101,31 +101,46 @@
   }
 
   .WeatherTemperature {
-    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
   }
 
-  .Weather .unit {
-    display: inline-block;
-    position: relative;
-    top: -70px;
-    margin-left: 270px;
-  }
-
-  .Weather .humidity-wind {
-    display: flex;
-    text-align: center;
-    margin-left: -60px;
-  }
-
   .Weather .temperature {
-    display: flex;
+    font-size: 40px;
+    margin: 9px 8px 0px 15px;
     text-align: center;
-    margin-top: 70px;
+  }
+
+  .Weather .unit {
+    display: flex;
+    font-size: 10px;
+    margin: 65px 0 0 0;
   }
 
   .Weather .main-img {
-    margin-top: 60px;
-    margin-left: 35px;
+    display: block;
+    margin: 4px 7px;
+    max-width: 90px;
+    max-height: 90px;
+  }
+
+  .Weather .humidity-wind {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  .Weather ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+  }
+
+  .Weather li {
+    margin: 5px 0;
+    font-size: 16px;
   }
 }

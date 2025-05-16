@@ -27,7 +27,7 @@
   margin-right: 0 !important;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 720px) {
   .weather-forecast-day-container {
     margin-top: 10px;
   }
