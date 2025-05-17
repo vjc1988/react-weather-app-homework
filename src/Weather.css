@@ -101,10 +101,9 @@
   }
 
   .WeatherTemperature {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
   }
 
   .Weather .temperature {
@@ -114,9 +113,12 @@
   }
 
   .Weather .unit {
-    display: flex;
-    font-size: 10px;
-    margin: 65px 0 0 0;
+    display: inline;
+    font-size: 12px;
+    position: relative;
+    margin-top: 61px;
+    margin-left: 0;
+    white-space: nowrap;
   }
 
   .Weather .main-img {
